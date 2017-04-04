@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "70CE0D5E1E93BD69000C1A02"
-               BuildableName = "Bullseye.app"
-               BlueprintName = "Bullseye"
-               ReferencedContainer = "container:Bullseye.xcodeproj">
+               BuildableName = "ColorChanger.app"
+               BlueprintName = "ColorChanger"
+               ReferencedContainer = "container:ColorChanger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70CE0D5E1E93BD69000C1A02"
-            BuildableName = "Bullseye.app"
-            BlueprintName = "Bullseye"
-            ReferencedContainer = "container:Bullseye.xcodeproj">
+            BuildableName = "ColorChanger.app"
+            BlueprintName = "ColorChanger"
+            ReferencedContainer = "container:ColorChanger.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70CE0D5E1E93BD69000C1A02"
-            BuildableName = "Bullseye.app"
-            BlueprintName = "Bullseye"
-            ReferencedContainer = "container:Bullseye.xcodeproj">
+            BuildableName = "ColorChanger.app"
+            BlueprintName = "ColorChanger"
+            ReferencedContainer = "container:ColorChanger.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "70CE0D5E1E93BD69000C1A02"
-            BuildableName = "Bullseye.app"
-            BlueprintName = "Bullseye"
-            ReferencedContainer = "container:Bullseye.xcodeproj">
+            BuildableName = "ColorChanger.app"
+            BlueprintName = "ColorChanger"
+            ReferencedContainer = "container:ColorChanger.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		70CE0D5F1E93BD69000C1A02 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70CE0D5F1E93BD69000C1A02 /* ColorChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70CE0D621E93BD6A000C1A02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70CE0D641E93BD6A000C1A02 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70CE0D671E93BD6A000C1A02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		70CE0D561E93BD69000C1A02 = {
 			isa = PBXGroup;
 			children = (
-				70CE0D611E93BD69000C1A02 /* Bullseye */,
+				70CE0D611E93BD69000C1A02 /* ColorChanger */,
 				70CE0D601E93BD69000C1A02 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		70CE0D601E93BD69000C1A02 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				70CE0D5F1E93BD69000C1A02 /* Bullseye.app */,
+				70CE0D5F1E93BD69000C1A02 /* ColorChanger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70CE0D611E93BD69000C1A02 /* Bullseye */ = {
+		70CE0D611E93BD69000C1A02 /* ColorChanger */ = {
 			isa = PBXGroup;
 			children = (
 				70CE0D621E93BD6A000C1A02 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				70CE0D6B1E93BD6A000C1A02 /* LaunchScreen.storyboard */,
 				70CE0D6E1E93BD6A000C1A02 /* Info.plist */,
 			);
+			name = ColorChanger;
 			path = Bullseye;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		70CE0D5E1E93BD69000C1A02 /* Bullseye */ = {
+		70CE0D5E1E93BD69000C1A02 /* ColorChanger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 70CE0D711E93BD6A000C1A02 /* Build configuration list for PBXNativeTarget "Bullseye" */;
+			buildConfigurationList = 70CE0D711E93BD6A000C1A02 /* Build configuration list for PBXNativeTarget "ColorChanger" */;
 			buildPhases = (
 				70CE0D5B1E93BD69000C1A02 /* Sources */,
 				70CE0D5C1E93BD69000C1A02 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = Bullseye;
+			name = ColorChanger;
 			productName = Bullseye;
-			productReference = 70CE0D5F1E93BD69000C1A02 /* Bullseye.app */;
+			productReference = 70CE0D5F1E93BD69000C1A02 /* ColorChanger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 70CE0D5A1E93BD69000C1A02 /* Build configuration list for PBXProject "Bullseye" */;
+			buildConfigurationList = 70CE0D5A1E93BD69000C1A02 /* Build configuration list for PBXProject "ColorChanger" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				70CE0D5E1E93BD69000C1A02 /* Bullseye */,
+				70CE0D5E1E93BD69000C1A02 /* ColorChanger */,
 			);
 		};
 /* End PBXProject section */
@@ -262,7 +263,7 @@
 				DEVELOPMENT_TEAM = 356C948HDC;
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.robmcbryde.Bullseye;
+				PRODUCT_BUNDLE_IDENTIFIER = co.robmcbryde.ColorChanger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -275,7 +276,7 @@
 				DEVELOPMENT_TEAM = 356C948HDC;
 				INFOPLIST_FILE = Bullseye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = co.robmcbryde.Bullseye;
+				PRODUCT_BUNDLE_IDENTIFIER = co.robmcbryde.ColorChanger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -284,7 +285,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		70CE0D5A1E93BD69000C1A02 /* Build configuration list for PBXProject "Bullseye" */ = {
+		70CE0D5A1E93BD69000C1A02 /* Build configuration list for PBXProject "ColorChanger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70CE0D6F1E93BD6A000C1A02 /* Debug */,
@@ -293,7 +294,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		70CE0D711E93BD6A000C1A02 /* Build configuration list for PBXNativeTarget "Bullseye" */ = {
+		70CE0D711E93BD6A000C1A02 /* Build configuration list for PBXNativeTarget "ColorChanger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				70CE0D721E93BD6A000C1A02 /* Debug */,

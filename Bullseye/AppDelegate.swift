@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Bullseye
+//  ColorChanger
 //
 //  Created by Robert McBryde on 04/04/2017.
 //  Copyright © 2017 Rob McBryde. All rights reserved.

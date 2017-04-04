@@ -9,16 +9,30 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
+    override func viewWillAppear(_ animated: Bool) {
+        view.backgroundColor = .red
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+   
+    @IBAction func colourButtonPressed(_ sender: UIButton) {
+        if let buttonTitle = sender.titleLabel?.text {
+            switch buttonTitle {
+                case "Red":
+                    print("Red button tapped")
+                    view.backgroundColor = .red
+                case "Green":
+                    print("Green button tapped")
+                    view.backgroundColor = .green
+                case "Blue":
+                    print("Blue button tapped")
+                    view.backgroundColor = .blue
+            default:
+                    print("error")
+            }
+        }
     }
+
 
 
 }
